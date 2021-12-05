@@ -17,6 +17,7 @@ Tech to be used:
 
 Followup discussion:
 - How to implement: follows, tags, caching
+- Production: error handling; prevent n+1 queries
 
 
 Steps:

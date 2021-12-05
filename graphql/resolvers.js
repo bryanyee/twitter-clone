@@ -1,27 +1,8 @@
-const tweets = [
-  {
-    text: 'Hello world tweet',
-    author: {
-      username: 'Jack'
-    },
-    comments: [{
-      text: 'Nice!',
-    }],
-  },
-  {
-    text: 'Sample tweet',
-    author: {
-      username: 'Bob'
-    },
-    comments: [{
-      text: 'Ok',
-    }],
-  },
-];
+const Tweet = require('../models/Tweet');
 
 const resolvers = {
   Query: {
-    tweets: () => tweets,
+    tweets: () => Tweet.getFeed(),
   },
 };
 
