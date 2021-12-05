@@ -8,7 +8,7 @@ Develop a Twitter clone with the following features:
 
 Tech to be used: 
 1. NodeJS with Apollo GraphQL 
-2. MongoDB with Mongoose 
+2. MongoDB with Mongoose
 3. ReactJS 
 4. Styled Components (CSS-in-JS) 
 5. JWT Authentication 
@@ -22,10 +22,10 @@ Followup discussion:
 Steps:
 - Determine data model
 - Determine API shape
-- Setup Express, Apollo and Mongoose backend
-- Setup React app
+- Setup Apollo server and Mongoose backend
 - Create data model for tweets and users
 - Create APIs for /feed, /createTweet, /createComment, /createRetweet
+- Setup React app
 - Create Twitter frontend
   - Show feed
   - Create tweet
@@ -33,6 +33,7 @@ Steps:
   - Retweet
 - Add auth
 
+
 Notes:
 - First implementation uses css-modules instead of styled-components
-- Not implemented: JWT authentication, docker
+- Not implemented: retweets, JWT authentication, docker
